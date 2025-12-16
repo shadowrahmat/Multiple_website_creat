@@ -39,3 +39,11 @@ nav ul li a:hover {
   color: white;
   margin-left: 50px;
 } 
+
+/* home banner design */
+.home_banner {
+  background-image: url();
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
