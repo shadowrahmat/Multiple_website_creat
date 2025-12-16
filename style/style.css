@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* nav style */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+
+  background-color: blue;
+}
+nav ul {
+  display: flex;
+  gap: 15px;
+  margin-right: 50px;
+}
+nav ul li {
+  list-style: none;
+  /* margin: 10px 5px; */
+}
+nav ul li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  padding: 10px 20px;
+  transition: 0.9s;
+}
+nav ul li a:hover {
+    background-color: red;
+    color: black;
+    border-radius: 6px;
+}
+
+.logo h3 {
+  font-size: 40px;
+  color: white;
+  margin-left: 50px;
+} 
