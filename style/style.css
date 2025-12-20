@@ -72,3 +72,15 @@ nav ul li a:hover {
   font-size: 24px;
   padding-left: 10px;
 }
+/* imge section design  */
+.imge_section {
+  padding: 100px 0;
+  background: rgb(122, 122, 226);
+}
+.img_container {
+  width: 1250px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  
+}
